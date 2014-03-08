@@ -1,0 +1,66 @@
+#NOTE: buildings in this file must also have a "units.dat" entry
+
+#building "name"
+#	resources produced per 15 seconds (optional)
+
+#	[list of buildable units]
+
+#	name of unit to build
+#	group size (0 here indicates that this unit is actually a building)
+#	cost
+#	build time (in seconds)
+
+#	repeat...
+
+#end
+
+# a site that switches into the team buildplot for nearby units
+genericplot "Build Site"
+end
+
+buildplot "Aes Sedai Build Site"
+	
+	"White Tower"
+	'0' # required to be zero if the entry is a building
+	'600'
+	'3'
+end
+
+buildplot "Dragon Reborn Build Site"
+	
+	"Aiel Tent"
+	'0' # required to be zero if the entry is a building
+	'600'
+	'3'
+end
+
+building "White Tower"
+
+	"Myrddraal"
+	'1'
+	'200'
+	'2'
+	
+	"Trolloc"
+	'7'
+	'100'
+	'3'
+	
+	"Trolloc Crossbowman"
+	'4'
+	'200'
+	'7'
+end
+
+building "Aiel Tent"
+
+	"Siswai'aman"
+	'1'
+	'200'
+	'10'
+	
+	"Aiel"
+	'5'
+	'100'
+	'5'
+end

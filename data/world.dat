@@ -1,0 +1,6 @@
+# Stationary world objects configuration file (trees, rocks, stone pillars, etc.)
+# loads the graphics from "world/OBJECT_NAME/" where there is a collection of bmps named in ascending order (ex. 0.bmp, 1.bmp, 2.bmp, and so on).
+# this should be a list of object types, not the objects themselves
+# there must not be any spaces in the type names!
+
+tree

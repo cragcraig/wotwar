@@ -1,0 +1,195 @@
+# note: these should be named the same as the unit they are for
+
+#ani "Template Animation"
+#	"directory" -directory in which the sprite images can be found. Example: "data/units/knight". Keep this to letters, numbers, and underscores. No spaces or puncuation.
+#	'frame width' -width of each frame, setting this to zero will cause the frames to be assumed square.
+#	-these lines control how long the frames in each animation are displayed (the period). Only include those for which you have supplied images in the directory.
+#	'stand'
+#	'idle'
+#	'idle1'
+#	'move'
+#	'attack'
+#	'attack1'
+#	'attack2'
+#	'ranged'
+#end
+
+#-------- Generic Build Site -------------
+
+ani "Build Site"
+	"data/buildings/generic/buildsite"
+	'0'
+	'1' #required for buildings
+end
+
+#-------- Aes Sedai -------------
+
+ani "Aes Sedai Build Site"
+	"data/buildings/aes_sedai/build_site"
+	'0'
+	'1' #required for buildings
+end
+
+#-------- WHITE TOWER -------------
+
+ani "White Tower"
+	"data/buildings/aes_sedai/white_tower"
+	'0'
+	'1' #required for buildings
+end
+
+#-------- Dragon Reborn Build Site -------------
+
+ani "Dragon Reborn Build Site"
+	"data/buildings/dragon_reborn/build_site"
+	'0'
+	'1' #required for buildings
+end
+
+#-------- AIEL TENT -------------
+
+ani "Aiel Tent"
+	"data/buildings/dragon_reborn/aiel_tent"
+	'0'
+	'1' #required for buildings
+end
+
+#-------- TOWER GUARD -------------
+
+ani "Tower Guard"
+	"data/units/tower_guard"
+	'120'
+	'1000' #stand
+	'3' #move
+	'2' #attack
+end
+
+#-------- TROLLOC -------------
+
+ani "Trolloc"
+	"data/units/trolloc"
+	'0'
+	'600' #stand
+	'5' #idle
+	'6' #idle1
+	'4' #move
+	'4' #attack
+end
+
+#-------- TROLLOC CROSSBOWMAN -------------
+
+ani "Trolloc Crossbowman"
+	"data/units/trolloc_crossbowman"
+	'0'
+	'600' #stand
+	'4' #idle
+	'4' #move
+	'3' #ranged
+end
+
+#-------- DEDICATED -------------
+
+ani "Dedicated"
+	"data/units/dedicated"
+	'0'
+	'500' #stand
+	'4' #idle
+	'4' #move
+	'3' #ranged
+end
+
+#-------- ASHA'MAN -------------
+
+ani "Asha'man"
+	"data/units/ashaman"
+	'0'
+	'500' #stand
+	'4' #move
+	'3' #ranged
+end
+
+#-------- AES SEDAI -------------
+
+ani "Aes Sedai"
+	"data/units/aes_sedai"
+	'0'
+	'500' #stand
+	'4' #move
+	'3' #ranged
+end
+
+#-------- ARCHER -------------
+
+ani "Archer"
+	"data/units/archer"
+	'0'
+	'600' #stand
+	'4' #move
+	'3' #ranged
+end
+
+#-------- KNIGHT -------------
+
+ani "Knight"
+	"data/units/knight"
+	'0'
+	'100' #stand
+	'4' #move
+end
+
+#-------- WARDER -------------
+
+ani "Warder"
+	"data/units/warder"
+	'0'
+	'600' #stand
+	'4' #move
+	'3' #attack
+end
+
+#-------- BORDERLAND SOLDIER -------------
+
+ani "Borderland Soldier"
+	"data/units/borderland_soldier"
+	'140'
+	'600' #stand
+	'4' #move
+	'2' #attack
+end
+
+#-------- Aiel Sis'awa'man -------------
+
+ani "Siswai'aman"
+	"data/units/aiel_siswaiaman"
+	'0'
+	'1000' #stand
+	'3' #move
+	'3' #attack
+	'3' #attack1
+	'3' #attack2
+	'3' #ranged
+end
+
+#-------- Aiel -------------
+
+ani "Aiel"
+	"data/units/aiel"
+	'0'
+	'1000' #stand
+	'5' #move
+	'4' #attack
+	'3' #attack1
+	'3' #attack2
+#	'3' #attack3 (except only 3 attacks can be used, so commented out)
+end
+
+#-------- Myrddraal -------------
+
+ani "Myrddraal"
+	"data/units/myrddraal"
+	'0'
+	'1000' #stand
+	'3' #move
+	'3' #attack
+	'3' #attack1
+end

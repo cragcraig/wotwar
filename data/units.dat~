@@ -1,0 +1,90 @@
+#unit "Template Unit"
+	'max health'
+	'radius'
+	'min speed'
+	'max speed'
+	'acceleration'
+	'min rotation rate'
+	'max rotation rate'
+	"img filename"
+end
+
+# this should be named the same as the unit it is for
+#ani "Template Animation"
+	#directory in which the images can be found. Example: "data/knight".
+	"directory"
+	# The first line is number of frames, the second is game frames per animation frame
+	# You must not provide lines for which you have not provided images, but you must maintain this order
+	'stand'
+	'stand'
+	'stand1'
+	'stand1'
+	'stand2'
+	'stand2'
+	'move'
+	'move'
+	'attack'
+	'attack1'
+	'attack2'
+	'ranged'
+	'ranged'
+	'die'
+	'die1'
+end
+
+unit "Soldier"
+	'50'
+	'15'
+	'40'
+	'160'
+	'9'
+	'12'
+	'55'
+	"data/soldier.bmp"
+end
+
+unit "Trolloc"
+	'50'
+	'20'
+	'60'
+	'200'
+	'9'
+	'12'
+	'55'
+	"data/trolloc.bmp"
+end
+
+unit "Knight"
+	'50'
+	'27'
+	'35'
+	'350'
+	'11'
+	'17'
+	'35'
+	"data/knight.bmp"
+end
+
+ani "Soldier"
+	"data/soldier"
+	'1'
+	'300'
+	'4'
+	'3'
+end
+
+ani "Trolloc"
+	"data/trolloc"
+	'1'
+	'300'
+	'4'
+	'4'
+end
+
+ani "Knight"
+	"data/knight"
+	'1'
+	'300'
+	'4'
+	'3'
+end

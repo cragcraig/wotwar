@@ -1,0 +1,50 @@
+#attack "name"
+#	"particle_type"
+#	'damage'
+#	'chain_factor' -enter 0 for no chaining
+#	"hit_particle"
+#end
+
+attack "bolt"
+	"arrow"
+	'7'
+	'0'
+end
+
+attack "arrow"
+	"arrow"
+	'4'
+	'0'
+end
+
+attack "spear"
+	"spear"
+	'8'
+	'0'
+end
+
+attack "fireball"
+	"fireball"
+	'10'
+	'0'
+end
+
+attack "fire"
+	"fire"
+	'25'
+	'0'
+end
+
+attack "lightning"
+	"lightning"
+	'30'
+	'0'
+	"lightning_hit"
+end
+
+attack "chain lightning"
+	"lightning"
+	'15'
+	'2'
+	"lightning_hit"
+end

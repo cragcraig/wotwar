@@ -1,0 +1,288 @@
+#unit "Unit Name"
+#	'health'
+#	'radius'
+#
+# --skip these for buildings--
+#
+#	'min speed'
+#	'max speed'
+#	'acceleration'
+#	'min rotation rate'
+#	'max rotation rate'
+#	"death_blood_particle"
+#	"death_remains_particle"
+#
+# --buildings can optionally be ranged, otherwise skip these for buildings--
+#
+#	"attack type" one of: melee, ranged, both, none
+#	'melee damage' -only include for melee units (dmg/sec)
+#	"name of ranged attack" -only include for ranged units
+#	'range of ranged attack' -only include for ranged units
+#	'frame on which to fire' -only include for ranged units
+#	'horizontal offset to fire from' -only include for ranged units
+#end
+
+#-------- TOWER GUARD -------------
+
+unit "Tower Guard"
+	'250'
+	'22'
+	'60'
+	'200'
+	'9'
+	'12'
+	'65'
+	"blood"
+	"bones"
+	"melee"
+	'8'
+end
+
+#-------- TROLLOC -------------
+
+unit "Trolloc"
+	'50'
+	'20'
+	'60'
+	'200'
+	'9'
+	'12'
+	'65'
+	"blood"
+	"bones"
+	"melee"
+	'10'
+end
+
+#-------- TROLLOC CROSSBOWMAN -------------
+
+unit "Trolloc Crossbowman"
+	'50'
+	'22'
+	'50'
+	'200'
+	'9'
+	'12'
+	'65'
+	"blood"
+	"bones"
+	"ranged"
+	"bolt"
+	'500'
+	'3'
+	'25'
+end
+
+#-------- ARCHER -------------
+
+unit "Archer"
+	'45'
+	'20'
+	'50'
+	'180'
+	'9'
+	'25'
+	'60'
+	"blood"
+	"bones"
+	"ranged"
+	"arrow"
+	'500'
+	'7'
+	'0'
+end
+
+#-------- DEDICATED -------------
+
+unit "Dedicated"
+	'250'
+	'20'
+	'50'
+	'180'
+	'9'
+	'25'
+	'60'
+	"blood"
+	"bones"
+	"ranged"
+	"lightning"
+	'500'
+	'5'
+	'0'
+end
+
+#-------- ASHA'MAN -------------
+
+unit "Asha'man"
+	'400'
+	'20'
+	'50'
+	'180'
+	'9'
+	'25'
+	'60'
+	"blood"
+	"bones"
+	"ranged"
+	"chain lightning"
+	'500'
+	'9'
+	'0'
+end
+
+#-------- AES SEDAI -------------
+
+unit "Aes Sedai"
+	'250'
+	'20'
+	'50'
+	'180'
+	'9'
+	'25'
+	'60'
+	"blood"
+	"bones"
+	"ranged"
+	"fire"
+	'500'
+	'9'
+	'0'
+end
+
+#-------- KNIGHT -------------
+
+#unit "Knight"
+#	'50'
+#	'35'
+#	'35'
+#	'350'
+#	'11'
+#	'20'
+#	'37'
+#	"blood"
+#	"bones"
+#	"melee"
+#	'7'
+#end
+
+#-------- WARDER -------------
+
+unit "Warder"
+	'250'
+	'18'
+	'60'
+	'170'
+	'9'
+	'12'
+	'55'
+	"blood"
+	"bones"
+	"melee"
+	'25'
+end
+
+#-------- BORDERLAND SOLDIER -------------
+
+unit "Borderland Soldier"
+	'250'
+	'18'
+	'60'
+	'170'
+	'9'
+	'12'
+	'55'
+	"blood"
+	"bones"
+	"melee"
+	'25'
+end
+
+#-------- Aiel Siswai'aman -------------
+
+unit "Siswai'aman"
+	'50'
+	'20'
+	'50'
+	'180'
+	'9'
+	'25'
+	'60'
+	"blood"
+	"bones"
+	"both"
+	'15'
+	"spear"
+	'500'
+	'5'
+	'13'
+end
+
+#-------- Aiel -------------
+
+unit "Aiel"
+	'50'
+	'20'
+	'50'
+	'250'
+	'9'
+	'25'
+	'60'
+	"blood"
+	"bones"
+	"melee"
+	'11'
+end
+
+#-------- Myrddraal -------------
+
+unit "Myrddraal"
+	'350'
+	'20'
+	'50'
+	'180'
+	'9'
+	'25'
+	'60'
+	"blood"
+	"bones"
+	"melee"
+	'30'
+end
+
+#-------------------------------
+#		BUILDINGS
+#-------------------------------
+
+#-------- Generic Build Site -------------
+
+unit "Build Site"
+	'0'
+	'40'
+end
+
+#-------- Build Sites -------------
+
+unit "Aes Sedai Build Site"
+	'0'
+	'40'
+end
+
+unit "Dragon Reborn Build Site"
+	'0'
+	'40'
+end
+
+#-------- White Tower -------------
+
+unit "White Tower"
+	'500'
+	'40'
+end
+
+#-------- Aiel Tent -------------
+
+unit "Aiel Tent"
+	'300'
+	'40'
+end
+

@@ -1,0 +1,42 @@
+# Tile configuration file
+# loads the graphics from "tiles/*.bmp"
+
+# The order in this list determines how the tiles overlap in the game.
+# The first tile in this list will be on the bottom and the default tile, the last will be on top
+
+# "tiletypes" are passable where as "obstructions" are not. Otherwise there is no difference between the two.
+
+
+tiletype "grass"
+	grass00
+	grass02
+	grass01
+
+tiletype "patchy_grass"
+	patchygrass1
+	patchygrass2
+	patchygrass
+	
+tiletype "sandy_grass"
+	sandy_grass1
+	sandy_grass
+	sandy_grass2
+
+tiletype "dirt"
+	dirt1
+	dirt
+
+tiletype "sand"
+	sand1
+	sand
+	sand2
+	
+tiletype "marsh"
+	marsh
+
+obstruction "water"
+	deep
+
+obstruction "shallow_water"
+	water1
+	water2
